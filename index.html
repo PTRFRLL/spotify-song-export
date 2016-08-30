@@ -1,0 +1,47 @@
+<!-- 
+	You can haz source, it's messy though.
+	All the Spotify logic runs client-side, in app.js
+ -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="@PTRFRLL">
+		<title>Spotify Playlists to JSON</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="./css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Export Spotify Saved Tracks</h1>
+				<p>This online tool exports all of your saved Spotify tracks to a JSON file.</p>
+				<p>To get started, authorize us to access your Spotify account (so we can read your saved music)</p>
+				<button id="authorize" class="btn btn-success"><i class="fa fa-spotify" aria-hidden="true"></i> Authorize on Spotify</button>
+				<a id="download" style="display: none;"></a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<h4 id="message" style="display: none;">Getting saved tracks for <span id="who"></span>...</h4>
+				</div>
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="loader" style="display: none;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+	      <div class="container">
+	        <p class="text-muted">Created by <a href='http://twitter.com/PTRFRLL'>Peter Fiorella</a> | Source on <a href='js/app.js'>GitHub</a></p>
+	      </div>
+	    </footer>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="./js/underscore-min.js"></script>
+		<script type="text/javascript" src="./js/moment.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
+	</body>
+</html>
