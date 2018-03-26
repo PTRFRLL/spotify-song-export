@@ -12,7 +12,7 @@ Small web-app to export your saved Spotify songs to a JSON file
 * [Bootstrap](https://getbootstrap.com/)
 * [Moment.js](https://momentjs.com/)
 * [Underscore.js](http://underscorejs.org/)
-* [Spotify Web API](https://beta.developer.spotify.com/documentation/web-api/) - Troy Hunt is a wizard. 
+* [Spotify Web API](https://beta.developer.spotify.com/documentation/web-api/)
 
 
 ## Authors
