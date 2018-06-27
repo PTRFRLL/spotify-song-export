@@ -1,5 +1,4 @@
 /* 
-* I lied about the Github part (for now)
 * Here's all the Spotify logic, it all works client-side
 * More or less stolen from https://github.com/plamere/MySavedTracks
 */
